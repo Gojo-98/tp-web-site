@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    /* border: 3px solid ; */
+    width: 1150px;
+    margin: auto;
+    margin-top: auto;
+    font-family: 'Source sans pro', sans-serif,Arial;
+}
+nav{
+    background-color: #ddffdd;
+   /* border: 3px solid greenyellow; */
+   display: flex;
+   flex-direction: row;
+  /* justify-content: space-between; */
+  margin-top: 5px;
+  height: 60px;
+  position: relative;
+
+
+}
+nav ul li{
+    display: inline-flex;
+    margin-left: 30px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+nav div img {
+    width: 180px;
+    height: 45px;
+    margin-top: 7px ;
+    
+}
+.indication-left{
+    position: relative;
+}
+.item-moment{
+    padding: 1px;
+    left: 0px;
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    
+}
+nav::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #009300;
+    
+}
+.item-last::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #009300;
+    left: 0px;
+    bottom: 0px;
+    
+}
+
+.item-moment a {
+    color: white;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+main{
+    margin-top: 40px;
+    margin-left: 33px;
+    display: flex;
+    flex-direction: row;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+     
+}
+header h1{
+    /* border: solid; */
+    font-family: serif;
+    /* line-height: 100px; */
+    margin-left: 20px;
+    width: 450px;
+    
+} 
+.premium{
+    width: 300px;
+    margin: auto;
+}
+.premium img{
+    /* border: solid; */
+    width: 300px;
+    margin: auto;
+    margin-top: 12px;
+    
+}
+.date{
+    width: 500px;
+    margin: auto;
+    /* border: solid red; */
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 12px;
+}
+    
+
+.mes-resaux-sociaux{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 0px;
+
+}
+.mes-resaux-sociaux img{
+    height: 45px;
+    border-radius: 7px;
+    margin-left: 12px;
+    
+}
+.mes-resaux-sociaux span{
+    /* border: 3px solid; */
+    line-height: 45px ;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 45px;
+    text-align: center;
+    background-color:#f5f5f5 ;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 690px;
+    margin-top: 20px;
+}
+.mon-premier-article{
+    font-family: serif,sans-serif,Arial;
+
+}
+.mon-premier-article p{
+    font-family: 'Source sans pro', sans-serif,Arial;
+    font: size 50px;
+    margin-top: 10px;
+    width: 550px;
+
+
+}
+.image-article img{
+    
+    width: 650px;
+    height: 350px;
+}
+.mon-premier-article span{
+    border: 3px solid;
+    background-color: #009300;
+    color: white;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+}
+hr{
+    width: 700px;
+    margin-top: 18px;
+}
+
+
+article .image-article div{
+    width: 215px;
+}
+.vertical-line{
+    border-left: 1px solid #9a9a9a;
+    height: 590px;
+    display: inline-block;
+    margin-left: 10px;
+}
+aside{
+    display: inline-flex;
+    flex-direction: row;
+}
+.mes-flash{
+
+    display: flex;
+    flex-direction: column;
+    padding: 33px;
+}
+.mes-flash h2{
+    color: red;
+}
+.list-flash{
+     margin-top: 33px ;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     font-size: 20px;
+}
+.list-flash span{
+    width: 300px;
+    margin-left: 23px;
+
+}
+aside button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+.pubi{
+    margin-top: ;
+    text-align: center;
+    margin: auto;
+}
+.pubi span{
+    opacity: 0.5;
+
+}
+.liste-flash{
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    opacity: 0.2;
+}
+.opa{
+    opacity: 0.3;
+}
+.liste-flash hr{
+    width: 350px;
+}

@@ -1,0 +1,37 @@
+.lemz{
+    border: solid ;
+    background-color:#aadaff ;
+    width: 1230px;
+    height: 500px;
+}
+aside{
+    margin-top: 10px;
+    margin-left: -15px;
+    border: solid;
+    width: 350px;
+    height: 450px;
+    float: left;
+}
+section{
+    margin-top: 10px;
+    border: solid;
+    width: 800px;
+    height: 450px;
+    float: right;
+    margin-right: 10px;
+}
+header{
+    border: solid;
+    margin-top: 10px;
+    width: 750px;
+    height: 50px;
+
+}
+article{
+    margin-top: 25px;
+    margin-left: 5px;
+    border: solid;
+    width: 230px;
+    height: 330px;
+    float: left;
+}
